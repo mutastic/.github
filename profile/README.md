@@ -5,11 +5,12 @@
   <img src="headline-light.png" alt="Green on the outside, red on the inside?" width="460">
 </picture>
 
-**Find out whether your tests, or your agent's, actually check anything.** mutastic makes small
-changes to your code, such as `>=` to `>`, and runs your tests against each one. A change no test
-notices is a place your tests run but don't check. For each, mutastic shows the inputs your tests
-used, suggests the test that would catch it, and gives the command that proves the fix. Coding
-agents get the same, with a gate that won't let them call the work done until it's caught.
+**Find out whether your tests, or your agent's, actually check anything.** mutastic is mutation
+testing for Java, Kotlin and Rust. It makes small changes to your code, such as `>=` to `>`, and
+runs your tests against each one. A change no test notices is a place your tests run but don't
+check. For each, mutastic shows the inputs your tests used, suggests the test that would catch it,
+and gives the command that proves the fix. Coding agents get the same, with a gate that won't let
+them call the work done until it's caught.
 
 ```sh
 curl -fsSL https://mutastic.io/install.sh | sh
